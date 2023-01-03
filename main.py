@@ -6,6 +6,7 @@ import json
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 import time
+import image_downloader
 
 def click_all_questions(driver: webdriver.Chrome):
 	for i in range(2, 47):
@@ -116,6 +117,8 @@ def main():
 	print("Questions saved")
 
 	driver.quit()
+
+	image_downloader.main()
 
 if __name__ == '__main__':
 	main()
