@@ -8,7 +8,7 @@ from selenium.webdriver.remote.webelement import WebElement
 import time
 import image_downloader
 
-def click_all_questions(driver: webdriver.Chrome):
+def click_all_questions_pensum(driver: webdriver.Chrome):
 	for i in range(2, 47):
 		firstAlternative = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_6"]/div[{i}]/div/div[3]/div[1]/label[1]')
 		try:
@@ -19,6 +19,19 @@ def click_all_questions(driver: webdriver.Chrome):
 			firstAlternative.click()
 		
 		nesteBtn = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_6"]/div[{i}]/div/div[4]/input[2]')
+		nesteBtn.click()
+
+def click_all_questions_eksamen(driver: webdriver.Chrome):
+	for i in range(2, 47):
+		firstAlternative = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_4"]/div[{i}]/div/div[3]/div[1]/label[1]')
+		try:
+			firstAlternative.click()
+		except ElementClickInterceptedException:
+			print("failed click")
+			time.sleep(.5)
+			firstAlternative.click()
+		
+		nesteBtn = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_4"]/div[{i}]/div/div[4]/input[2]')
 		nesteBtn.click()
 
 def get_img_url(driver: webdriver.Chrome, questionNum: int):
@@ -47,7 +60,7 @@ def get_question_title(questionNum: int, driver: webdriver.Chrome) -> str:
 
 	return title.get_attribute("textContent") # type: ignore
 
-def get_all_questions(driver: webdriver.Chrome):
+def get_all_questions_pensum(driver: webdriver.Chrome):
 	questions: list[object] = []
 
 	for i in range(1, 46):
@@ -64,16 +77,11 @@ def get_all_questions(driver: webdriver.Chrome):
 
 	return questions
 
+'//*[@id="ays_finish_quiz_4"]/div[48]/div[1]/div/div[3]/div[2]/label[1]'
 
-
-def main():
+def do_login(driver: webdriver.Chrome):
 	with open('bilteoriCreds.json', 'r') as f:
 		creds = json.load(f)
-
-	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-	driver.get("https://www.bil-teori.no/min-konto/")
-
-	time.sleep(3)
 
 	acceptCookieBtn = driver.find_element(By.ID, "daextlwcnf-cookie-notice-button-2")
 
@@ -93,23 +101,45 @@ def main():
 
 	# time.sleep(4)
 
+def start_del_1_pensum(driver: webdriver.Chrome):
+	
 	pensumBtn = driver.find_element(By.XPATH, '//*[@id="kt-info-box_6a17bf-53"]/a')
 	pensumBtn.click()
-
-	# time.sleep(4)
 
 	startDel1Btn = driver.find_element(By.XPATH, '//*[@id="ays_finish_quiz_6"]/div[1]/div/div/div/input')
 	startDel1Btn.click()
 
+def start_eksamen(driver: webdriver.Chrome):
+	eksamenBtn = driver.find_element(By.XPATH, '//*[@id="kt-info-box_432379-12"]')
+	eksamenBtn.click()
+
+	startEksamenBtn = driver.find_element(By.XPATH, '//*[@id="ays_finish_quiz_4"]/div[1]/div/div/div/input')
+	startEksamenBtn.click()
+	
+
+def main():
+	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+	driver.get("https://www.bil-teori.no/min-konto/")
+
 	time.sleep(3)
 
-	click_all_questions(driver)
+	do_login(driver)
+
+	# start_del_1_pensum(driver)
+
+	start_eksamen(driver)
+
+	time.sleep(3)
+
+	# click_all_questions_pensum(driver)
+
+	click_all_questions_eksamen(driver)
 
 	print("Loading questions")
 
-	time.sleep(10)
+	time.sleep(10000)
 
-	questions = get_all_questions(driver)
+	questions = get_all_questions_pensum(driver)
 
 	with open('out.json', 'w+', encoding='utf8') as f:
 		f.write(json.dumps(questions))
