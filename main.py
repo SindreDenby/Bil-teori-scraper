@@ -20,8 +20,6 @@ def click_all_questions(driver: webdriver.Chrome):
 		nesteBtn = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_6"]/div[{i}]/div/div[4]/input[2]')
 		nesteBtn.click()
 
-
-
 def get_answers_from_number(questionNum: int, driver: webdriver.Chrome) -> tuple[list[str], int]:
 	answers: list[WebElement] = []
 	correctAnswer = -1
@@ -56,58 +54,59 @@ def get_all_questions(driver: webdriver.Chrome):
 
 	return questions
 
-with open('bilteoriCreds.json', 'r') as f:
-	creds = json.load(f)
-	print(creds)
-
-'//*[@id="ays_finish_quiz_6"]/div[48]/div[1]/div/div[1]/h3/strong'
-
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-driver.get("https://www.bil-teori.no/min-konto/")
-
-time.sleep(3)
-
-acceptCookieBtn = driver.find_element(By.ID, "daextlwcnf-cookie-notice-button-2")
-
-acceptCookieBtn.click()
-
-time.sleep(1)
-
-usernameInput = driver.find_element(By.ID, "username")
-usernameInput.send_keys(creds['username']) # type: ignore
-
-passwordInput = driver.find_element(By.ID, "password")
-passwordInput.send_keys(creds['password']) # type: ignore
-
-time.sleep(1)
-loginBtn = driver.find_element(By.NAME, "login")
-loginBtn.click()
-
-# time.sleep(4)
-
-pensumBtn = driver.find_element(By.XPATH, '//*[@id="kt-info-box_6a17bf-53"]/a')
-pensumBtn.click()
-
-# time.sleep(4)
-
-startDel1Btn = driver.find_element(By.XPATH, '//*[@id="ays_finish_quiz_6"]/div[1]/div/div/div/input')
-startDel1Btn.click()
-
-time.sleep(3)
-
-click_all_questions(driver)
-
-print("Loading questions")
-
-time.sleep(10)
-
-questions = get_all_questions(driver)
 
 
-with open('out.json', 'w+', encoding='utf8') as f:
-	f.write(json.dumps(questions))
+def main():
+	with open('bilteoriCreds.json', 'r') as f:
+		creds = json.load(f)
+		print(creds)
 
-print("out saved")
+	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+	driver.get("https://www.bil-teori.no/min-konto/")
 
+	time.sleep(3)
 
-input("")
+	acceptCookieBtn = driver.find_element(By.ID, "daextlwcnf-cookie-notice-button-2")
+
+	acceptCookieBtn.click()
+
+	time.sleep(1)
+
+	usernameInput = driver.find_element(By.ID, "username")
+	usernameInput.send_keys(creds['username']) # type: ignore
+
+	passwordInput = driver.find_element(By.ID, "password")
+	passwordInput.send_keys(creds['password']) # type: ignore
+
+	time.sleep(1)
+	loginBtn = driver.find_element(By.NAME, "login")
+	loginBtn.click()
+
+	# time.sleep(4)
+
+	pensumBtn = driver.find_element(By.XPATH, '//*[@id="kt-info-box_6a17bf-53"]/a')
+	pensumBtn.click()
+
+	# time.sleep(4)
+
+	startDel1Btn = driver.find_element(By.XPATH, '//*[@id="ays_finish_quiz_6"]/div[1]/div/div/div/input')
+	startDel1Btn.click()
+
+	time.sleep(3)
+
+	click_all_questions(driver)
+
+	print("Loading questions")
+
+	time.sleep(10)
+
+	questions = get_all_questions(driver)
+
+	with open('out.json', 'w+', encoding='utf8') as f:
+		f.write(json.dumps(questions))
+
+	print("Questions saved")
+	pass
+
+if __name__ == '__main__':
+	main()
