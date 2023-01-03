@@ -2,3 +2,4 @@ chromedriver.exe
 bilteoriCreds.json
 images/*
 out.json
+__pycache__/*
