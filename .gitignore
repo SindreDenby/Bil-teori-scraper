@@ -1,2 +1,4 @@
 chromedriver.exe
 bilteoriCreds.json
+images/*
+out.json

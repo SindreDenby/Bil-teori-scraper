@@ -1,452 +1,497 @@
 [
   {
-    "title": "Den gule bilen skal svinge til venstre i krysset. Hvor skal den ligge?",
+    "title": "Den r\u00f8de bilen skal svinge til h\u00f8yre i krysset. Hvor skal den ligge?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/03/veikryss-bokstaver-.jpg",
     "answers": [
       "A ",
       "B ",
       "C ",
-      "Enten A eller B"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Du kj\u00f8rer utenfor tettbygd str\u00f8k. Det st\u00e5r ikke noe skilt om fartsgrensen. Hva er fartsgrensen?",
-    "answers": [
-      "50 km/t",
-      "60 km/t",
-      "70 km/t",
-      "80 km/t"
+      "Enten B eller C"
     ],
     "correct_answer": 3
   },
   {
-    "title": "Hvor fort er det tillatt \u00e5 kj\u00f8re i et gatetun?",
+    "title": "Du kj\u00f8rer mot et planovergang og ser at det blinker r\u00f8dt lys ved overgangen. Hva skal du gj\u00f8re?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/planovergang-med-bommen-nede.png",
     "answers": [
-      "Gangfart",
-      "10 km/t",
-      "20 km/t",
-      "30 km/t"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hva er galt n\u00e5r du skal avpasse farten?",
-    "answers": [
-      "Du skal kunne stoppe p\u00e5 den veistrekningen du har oversikt over, og foran enhver p\u00e5regnelig hindring",
-      "Du skal ta hensyn til f\u00f8ret",
-      "Du skal holde tilstrekkelig liten fart n\u00e5r du passer barn ved veien",
-      "Hvis du har nye dekk, kan du alltid kj\u00f8re i 80 km/t i en 80-sone"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Hva menes med \"stopplengde\"?",
-    "answers": [
-      "Det er et annet ord for bremselengde",
-      "Det er den reaksjonslengden + bremselengden (og noen ganger kommer uoppmerksomhetslengden i tillegg)",
-      "Det er det samme som reaksjonslengde",
-      "Det er den tiden bilen bruker p\u00e5 \u00e5 stoppe"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "title": "Hva er viktig \u00e5 huske n\u00e5r man kj\u00f8rer i en rundkj\u00f8ring?",
-    "answers": [
-      "Man skal bruke blinklys for \u00e5 vise hvor man skal",
-      "Man skal kj\u00f8re i 50 km/t helt fram til rundkj\u00f8ringen",
-      "Man har vikeplikt for kryssende trafikk fra h\u00f8yre",
-      "Man har vikeplikt for alle som vil inn i rundkj\u00f8ringen"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "N\u00e5r skal man bruke lyd- eller lyssignaler?",
-    "answers": [
-      "N\u00e5r man vil hilse p\u00e5 andre",
-      "N\u00e5r man vil takke for at noen stoppet for \u00e5 slippe en fram",
-      "N\u00e5r det er helt n\u00f8dvendig",
-      "Alle alternativene er riktige"
+      "Kj\u00f8re s\u00e5 fort du kan over planovergangen f\u00f8r toget kommer",
+      "Stoppe ved stopplinjen eller i betryggende avstand foran signalet",
+      "Kj\u00f8re over planovergangen hvis det er klart",
+      "Kj\u00f8re over planovergangen med n\u00f8dblinken p\u00e5"
     ],
     "correct_answer": 2
-  },
-  {
-    "title": "Hvordan ivaretar man hesten og rytterens sikkerhet n\u00e5r man skal kj\u00f8re forbi en som rir?",
-    "answers": [
-      "Man bruker hornet for \u00e5 gi signal om at man er i ferd med \u00e5 kj\u00f8re forbi",
-      "Man kj\u00f8rer forbi hvis rytteren gir tegn til det",
-      "Man passerer hesten med god margin",
-      "Alle alternativene er riktige"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "title": "Befinner noen av personbilene seg i en blindsone?",
-    "answers": [
-      "Ja, den gule bilen",
-      "Ja, den svarte bilen",
-      "Ja, b\u00e5de den gule og den svarte bilen ",
-      "Nei, det er mulig for begge semitrailerne \u00e5 se begge personbilene"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "title": "Du stopper langs veien i m\u00f8rket. Hva m\u00e5 du huske n\u00e5r det gjelder bilens lys?",
-    "answers": [
-      "Du m\u00e5 skifte til parkeringslys",
-      "Du m\u00e5 sl\u00e5 av lysene",
-      "Du m\u00e5 sette p\u00e5 n\u00f8dblinken",
-      "Du m\u00e5 ta p\u00e5 fjernlysene"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hvem av disse kan benytte kollektivfelt?",
-    "answers": [
-      "Elektriske biler",
-      "Biler med mer enn 2 passasjerer",
-      "Lastebiler",
-      "Biler med tilhenger"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hvor stor avstand skal man ha til forankj\u00f8rende biler?",
-    "answers": [
-      "S\u00e5 stor at det det ikke er fare p\u00e5 p\u00e5kj\u00f8ring dersom forankj\u00f8rende bremser",
-      "S\u00e5 stor at det minst er 10 sekunders avstand",
-      "S\u00e5 stor at det minst er 5 sekunders avstand",
-      "S\u00e5 stor at man ikke kan lese kjennemerket (registreringsmerket) p\u00e5 bilen foran"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Den gule bilen holder samme fart som semitraileren ved siden av seg. Er det greit at den gule bilen ligger i det feltet?",
-    "answers": [
-      "Ja, det spiller ikke noen rolle om man bruker det h\u00f8yre eller venstre feltet p\u00e5 motorveien",
-      "Ja, s\u00e5 lenge trafikken i feltet ved siden av kan kj\u00f8re forbi",
-      "Nei, det feltet den gule bilen ligger i, skal kun brukes n\u00e5r man kj\u00f8rer forbi",
-      "Nei, det er motg\u00e5ende trafikk i det feltet som den gule bilen ligger i "
-    ],
-    "correct_answer": 2
-  },
-  {
-    "title": "Hvilket alternativ er galt?",
-    "answers": [
-      "Det er helt i orden \u00e5 kj\u00f8re s\u00e5 sakte man vil, bare man ikke overskrider fartsgrensen",
-      "Det er ikke lov til \u00e5 overskride fartsgrensen",
-      "Man skal ikke kj\u00f8re s\u00e5 sakte at man un\u00f8dig hindrer eller forstyrrer trafikken",
-      "Loven sier at man skal vise hensyn til dem som bor ved veien"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Du kj\u00f8rer den r\u00f8de bilen. Hvordan b\u00f8r du kj\u00f8re?",
-    "answers": [
-      "Du b\u00f8r stoppe f\u00f8r planovergangen ",
-      "Du b\u00f8r kj\u00f8re fram til den gule bilen",
-      "Du kan forvente at den hvite bilen stopper, slik at den gule bilen og du kan kj\u00f8re ut",
-      "Du b\u00f8r blinke med lysene, slik at den gule bilen skj\u00f8nner at du kommer, og dermed gir plass til deg"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hva er reaksjonslengde?",
-    "answers": [
-      "Det er tiden det tar fra man reagerer til man handler",
-      "Det er den avstanden man tilbakelegger fra man trykker p\u00e5 bremsepedalen til bilen har stoppet",
-      "Det er den avstanden man tilbakelegger fra man oppfatter en fare til man reagerer",
-      "Det er den tiden man bruker p\u00e5 \u00e5 trykke inn bremsepedalen"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "title": "Hva er riktig n\u00e5r det gjelder fart?",
-    "answers": [
-      "Man m\u00e5 tilpasse farten etter sikten",
-      "Man m\u00e5 tilpasse farten etter omr\u00e5det",
-      "Man m\u00e5 tilpasse farten etter f\u00f8ret",
-      "Alle alternativene over er riktige"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Hvor stor avstand b\u00f8r du ha til bilen foran deg n\u00e5r fartsgrensen er 80 km/t?",
-    "answers": [
-      "Minst 2 sekunder",
-      "Ca. 50 meter",
-      "Ca. 50 meter p\u00e5 dagtid og 100 meter i m\u00f8rket (og i tunneler)",
-      "Stor nok avstand til at de som vil kj\u00f8re forbi, kan legge seg inn foran deg uten at det oppst\u00e5r en farlig situasjon"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Hva er h\u00f8yeste tillatte fartsgrense n\u00e5r man kj\u00f8rer med tilhenger, og n\u00e5r tilhengeren har en aktuell totalvekt p\u00e5 400 kg?",
-    "answers": [
-      "60 km/t",
-      "70 km/t",
-      "80 km/t, men i spesielle tilfeller kan tilhengeren godkjennes for \u00e5 kj\u00f8re i 100 km/t",
-      "90 km/t, men i spesielle tilfeller kan tilhengeren godkjennes for \u00e5 kj\u00f8re i 100 km/t"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "title": "Hva kan v\u00e6re utfordrende n\u00e5r man kj\u00f8rer p\u00e5 en l\u00f8s grusvei?",
-    "answers": [
-      "At man kan f\u00e5 lengre bremselengde",
-      "At det kan v\u00e6re fare for steinsprut",
-      "At man kan f\u00e5 d\u00e5rligere veigrep",
-      "Alle de 3 alternativene over er riktige"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Hva er fartsgrensen i Norge hvis det ikke er satt opp skilt?",
-    "answers": [
-      "40 i tettbygde str\u00f8k, 80 ellers",
-      "50 i tettbygde str\u00f8k, 80 ellers",
-      "60 i tettbygde str\u00f8k, 80 ellers",
-      "50 i tettbygde str\u00f8k, 70 ellers"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "title": "Hva er et reversibelt kj\u00f8refelt?",
-    "answers": [
-      "Et kj\u00f8refelt som kan brukes i den ene eller andre kj\u00f8reretningen, avhengig av hvor trafikken er st\u00f8rst",
-      "Et kj\u00f8refelt som brukes som veiskulder",
-      "Et kj\u00f8refelt som kun benyttes av kollektivtrafikk",
-      "Et kj\u00f8refelt som kan benyttes hvis man m\u00e5 rygge p\u00e5 motorveien"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hva er riktig n\u00e5r man selv blir forbikj\u00f8rt?",
-    "answers": [
-      "Man skal ikke \u00f8ke farten",
-      "Man skal stanse hvis det blir n\u00f8dvendig",
-      "Man skal holde s\u00e5 langt til h\u00f8yre som mulig",
-      "Alle alternativene er riktige"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Hvor lang blir n\u00f8dbremselengden p\u00e5 normalt vinterf\u00f8re i forhold til sommerf\u00f8re?",
-    "answers": [
-      "Med piggdekk blir det ingen forskjell",
-      "Dobbelt s\u00e5 lang",
-      "Tre ganger s\u00e5 lang",
-      "Fire ganger s\u00e5 lang"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Du kj\u00f8rer den r\u00f8d bilen i rushtrafikken. Det er k\u00f8 foran deg. Hvor b\u00f8r du stoppe?",
-    "answers": [
-      "Punkt A",
-      "Punkt B",
-      "Punkt C",
-      "Enten A eller B"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "title": "Hvis man dobler farten, hvor mye vanskeligere er det da \u00e5 klare en sving?",
-    "answers": [
-      "Halvannen ganger s\u00e5 vanskelig",
-      "Dobbelt s\u00e5 vanskelig",
-      "Tre ganger s\u00e5 vanskelig",
-      "Fire ganger s\u00e5 vanskelig"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Hvorfor b\u00f8r man holde stor nok avstand til bilen foran?",
-    "answers": [
-      "Fordi det skal v\u00e6re mulig for en som kj\u00f8rer forbi deg, \u00e5 slippe inn foran deg",
-      "Fordi man skal forhindre p\u00e5kj\u00f8rsel",
-      "Fordi man skal f\u00e5 god nok oversikt over trafikken foran",
-      "Alle alternativene er riktige"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Du skal kj\u00f8re 10 km, og du blir liggende bak en bil som kj\u00f8rer i 60 km/t. Du vil heller kj\u00f8re i 70 km/t, s\u00e5 du vurderer \u00e5 kj\u00f8re forbi. Men hvor mye tid sparer du egentlig p\u00e5 \u00e5 kj\u00f8re i 70 km/t i stedet for 60 km/t p\u00e5 denne strekningen?",
-    "answers": [
-      "Ca. 1,5 min",
-      "Ca. 5 min",
-      "Ca. 10 min",
-      "Ca. 12 min"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hva betyr en gr\u00f8nn pil (kj\u00f8refeltsignal)?",
-    "answers": [
-      "Feltet vil stenges om 1 km",
-      "Feltet kan brukes",
-      "Feltet er forbeholdt el-biler",
-      "Feltet er et milj\u00f8felt som ikke kan brukes av kj\u00f8ret\u00f8y med piggdekk"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "title": "Hva betyr et r\u00f8dt kryss (kj\u00f8refeltsignal)?",
-    "answers": [
-      "Det er et flettefelt",
-      "Det er et felt som kun skal brukes av kollektivtrafikk",
-      "Det er forbudt \u00e5 bruke feltet i retning mot signalet",
-      "Det er kun motorsykler som kan bruke feltet"
-    ],
-    "correct_answer": 2
-  },
-  {
-    "title": "Du kj\u00f8rer i 70 km/t og kj\u00f8rer forbi et skilt hvor det st\u00e5r 50 km/t. N\u00e5r skal du begynne \u00e5 redusere farten?",
-    "answers": [
-      "F\u00f8r du kj\u00f8rer forbi skiltet, slik at du har riktig fart n\u00e5r du passerer skiltet",
-      "Etter skiltet",
-      "Akkurat i det du passerer skiltet",
-      "Med \u00e9n gang du ser skiltet"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hvem av disse kan ikke kj\u00f8re i et sambruksfelt?",
-    "answers": [
-      "Busser",
-      "Motorsykkel p\u00e5 tre hjul",
-      "Biler med minst to personer i",
-      "Elektriske biler"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "title": "Har man lov til \u00e5 kj\u00f8re s\u00e5 sakte man vil?",
-    "answers": [
-      "Ja, det bestemmer man selv",
-      "Ja, fordi fartsgrensen er bare en grense for maksfart",
-      "Ja, for andre trafikanter kan bare kj\u00f8re forbi hvis de vil kj\u00f8re fortere",
-      "Man har ikke lov til \u00e5 kj\u00f8re s\u00e5 sakte at man hindrer andre trafikanter un\u00f8dig"
-    ],
-    "correct_answer": 3
   },
   {
     "title": "N\u00e5r er det lov \u00e5 bruke venstre felt?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/motorvei-med-lastebil.png",
     "answers": [
       "N\u00e5r man skal foreta en forbikj\u00f8ring",
       "N\u00e5r man skal svinge til venstre i krysset",
       "N\u00e5r det er stor trafikk og h\u00f8yre felt er fullt",
       "Alle de tre alternativene over er riktige"
     ],
-    "correct_answer": 3
+    "correct_answer": 4
   },
   {
-    "title": "Hva menes med lyshorn?",
+    "title": "Hva er vannplaning?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/ser-trafikken-foran-gjennom-vat-frontrute.png",
     "answers": [
-      "Det betyr at man bruker fjernlysene",
-      "Det betyr at man blinker med fjernlysene for \u00e5 gi signal til andre",
-      "Det betyr at man bruker hornet og fjernlysene samtidig for \u00e5 signalisere til medtrafikanter",
-      "Det betyr at man bruker fjernlysene feil (feiljustert)"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "title": "Hva avgj\u00f8r hvor mange kj\u00f8refelter veien har?",
-    "answers": [
-      "Om det er europavei eller riksvei",
-      "Bredden p\u00e5 veien",
-      "Veitradisjonen i omr\u00e5det",
-      "Veikvaliteten"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "title": "Hva er riktig?",
-    "answers": [
-      "Blinklys skal kun brukes i helt spesielle tilfeller",
-      "Horn skal brukes for \u00e5 hilse p\u00e5 medtrafikanter",
-      "Bremselys brukes som tegn i trafikken",
-      "Fjernlys skal ogs\u00e5 brukes om dagen"
+      "Det er at bilen sklir p\u00e5 vannet fordi det har v\u00e6rt oljes\u00f8l p\u00e5 veien",
+      "Det er at bilen sklir p\u00e5 vannet fordi dekkene mister veigrepet",
+      "Det er at bilen sklir p\u00e5 underkj\u00f8lt regn",
+      "Det er at bilen sklir p\u00e5 underlaget fordi det er for lite luft i dekkene"
     ],
     "correct_answer": 2
   },
   {
+    "title": "Du n\u00e6rmer deg en planovergang og ser denne skiltkombinasjonen. Hva forteller den deg?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/03/planovergang-tog.jpg",
+    "answers": [
+      "At det er en stor planovergang",
+      "At det er en liten planovergang",
+      "At planovergangen kommer om noen f\u00e5 meter",
+      "At du n\u00e6rmere deg en planovergang, og at avstanden fram til overgangen er delt i tre (og at du befinner deg ved den f\u00f8rste tredjedelen)"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hvis man dobler farten, hvor mye vanskeligere er det da \u00e5 klare en sving?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/100_2-Farlig-sving-til-venstre.jpg",
+    "answers": [
+      "Halvannen ganger s\u00e5 vanskelig",
+      "Dobbelt s\u00e5 vanskelig",
+      "Tre ganger s\u00e5 vanskelig",
+      "Fire ganger s\u00e5 vanskelig"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hvorfor b\u00f8r man vende hodet og se til siden n\u00e5r man skal bytte felt?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/sidespeil-pa-bil-i-fart--e1666861586667.png",
+    "answers": [
+      "P\u00e5 grunn av blindsonen",
+      "Fordi det er lurt \u00e5 vende hodet for at nakken ikke skal stivne",
+      "Fordi det er mange som kj\u00f8rer fort forbi",
+      "Fordi skarpsynet bare dekker en liten del av synsfeltet"
+    ],
+    "correct_answer": 1
+  },
+  {
     "title": "P\u00e5 hvilken side av dette skiltet skal man kj\u00f8re?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/906_0V.jpg",
     "answers": [
       "H\u00f8yre",
       "Venstre ",
       "Det spiller ingen rolle",
       "Det kommer an p\u00e5 om det er forkj\u00f8rsvei eller ikke"
     ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hvilket av disse alternativene er riktig?",
-    "answers": [
-      "Den hvite bilen skal bruke blinklys i god tid f\u00f8r den svinger til h\u00f8yre i krysset",
-      "Den r\u00f8de bilen har ikke lov til \u00e5 kj\u00f8re f\u00f8r den hvite bilen har svingt til h\u00f8yre",
-      "Den r\u00f8de bilen kj\u00f8rer p\u00e5 en forkj\u00f8rsvei",
-      "Den hvite bilen har vikeplikt for den r\u00f8de bilen"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hvilket felt skal man vanligvis benytte n\u00e5r man skal ta en forbikj\u00f8ring p\u00e5 en motorvei?",
-    "answers": [
-      "H\u00f8yre",
-      "Venstre",
-      "Krabbefeltet",
-      "Begge feltene kan benyttes"
-    ],
     "correct_answer": 1
-  },
-  {
-    "title": "Hvilket alternativ er riktig?",
-    "answers": [
-      "Fjernlys m\u00e5 ikke blende motg\u00e5ende trafikk, heller ikke jernbanetog eller sporvogn",
-      "Parkeringslys skal bare brukes p\u00e5 parkeringsplasser eller i parkeringshus",
-      "T\u00e5kelys skal brukes i kombinasjon med n\u00e6rlys",
-      "Alle de tre alternativene er riktige"
-    ],
-    "correct_answer": 0
-  },
-  {
-    "title": "Hvordan skal man kj\u00f8re n\u00e5r man skal til venstre i rundkj\u00f8ringen?",
-    "answers": [
-      "Den r\u00f8d linjen",
-      "Den bl\u00e5 linjen",
-      "Det er valgfritt s\u00e5 lenge man gir tegn i god tid",
-      "Begge linjene er riktige"
-    ],
-    "correct_answer": 1
-  },
-  {
-    "title": "Hva regnes som kommunikasjon i bilkj\u00f8ringens ABC?",
-    "answers": [
-      "Valg av fart",
-      "Blinklys",
-      "Plassering",
-      "Alle alternativene er riktige"
-    ],
-    "correct_answer": 3
-  },
-  {
-    "title": "Har man lov til \u00e5 foreta en forbikj\u00f8ring her?",
-    "answers": [
-      "Ja, s\u00e5 lenge det er trygt \u00e5 foreta forbikj\u00f8ringen",
-      "Bare hvis fartsgrensen er under 80 km/t",
-      "Nei, det er forbudt",
-      "Bildet gir ikke nok informasjon til \u00e5 vurdere det"
-    ],
-    "correct_answer": 0
   },
   {
     "title": "Hvordan kan du vise andre trafikanter at du har tenkt \u00e5 svinge i et kryss (i tillegg til \u00e5 bruke blinklysene)?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/08/11.jpg",
     "answers": [
       "Plassere bilen riktig og tilpasse farten",
       "Blinke med lysene",
       "Plassere bilen litt over i det kj\u00f8refeltet hvor man skal svinge",
       "Stikke h\u00e5nden ut av vinduene og peke i den retningen man skal svinge (slik syklister ofte gj\u00f8r)"
     ],
-    "correct_answer": 0
+    "correct_answer": 1
+  },
+  {
+    "title": "Hvordan lyder regelen?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bremsespor-pa-asfalt.png",
+    "answers": [
+      "Bremselengden \u00f8ker med kvadratet av farts\u00f8kningen",
+      "Bremselengden er det dobbelte av farts\u00f8kningen",
+      "Bremselengden er lik farts\u00f8kningen",
+      "Bremselengden er lik farts\u00f8kningen delt p\u00e5 2"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "title": "B\u00f8r du gi tegn n\u00e5r du skifter felt p\u00e5 motorveien?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/08/motorvei-feltskifte.jpg",
+    "answers": [
+      "Ja, 2-3 sekunder f\u00f8r",
+      "Ja, 5-8 sekunder f\u00f8r",
+      "Nei, man gir tegn n\u00e5r man skal vise hvor man skal svinge i kryss",
+      "Ja, men n\u00e5r det bare er to felt, er det ikke n\u00f8dvendig \u00e5 gi tegn, for da er det opplagt hvor man skal"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "Hva er reaksjonslengde?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/mann-kjorer-med-begge-hendene-pa-rattet.png",
+    "answers": [
+      "Det er tiden det tar fra man reagerer til man handler",
+      "Det er den avstanden man tilbakelegger fra man trykker p\u00e5 bremsepedalen til bilen har stoppet",
+      "Det er den avstanden man tilbakelegger fra man oppfatter en fare til man reagerer",
+      "Det er den tiden man bruker p\u00e5 \u00e5 trykke inn bremsepedalen"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "title": "Kj\u00f8ret\u00f8yet foran deg har r\u00f8d, trekantet refleks. Hva betyr det?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/03/nathan-mcdine-cvX7fv51v4Q-unsplash-11-2.jpg",
+    "answers": [
+      "At bilen har f\u00e5tt motorstopp",
+      "At det er en ambulanse",
+      "At det er et vogntog",
+      "At det er en brannbil"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "title": "Hva skal man gj\u00f8re hvis man er fanget mellom bommene p\u00e5 en planovergang?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/07/1a.jpg",
+    "answers": [
+      "Pr\u00f8ve \u00e5 kj\u00f8re ut p\u00e5 siden av bommene",
+      "Kj\u00f8re ned bommene",
+      "Komme seg ut av bilen fortest mulig",
+      "Pr\u00f8ve \u00e5 rygge"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "Hva regnes som kommunikasjon i bilkj\u00f8ringens ABC?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/animert-lyskryss-.png",
+    "answers": [
+      "Valg av fart",
+      "Blinklys",
+      "Plassering",
+      "Alle alternativene er riktige"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Har noen lov \u00e5 kj\u00f8re forbi deg ved en uoversiktlig bakketopp?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/104_1.jpg",
+    "answers": [
+      "Nei    ",
+      "Bare hvis du kj\u00f8rer under 50 km/t",
+      "Nei, bare hvis den andre bilen kj\u00f8rer forbi i et kj\u00f8refelt hvor motg\u00e5ende trafikk ikke er tillatt",
+      "Ja, det er aldri noe galt \u00e5 kj\u00f8re forbi noen foran en uoversiktlig bakketopp"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "title": "Hvem av disse kan ikke kj\u00f8re i et sambruksfelt?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/509_0.jpg",
+    "answers": [
+      "Busser",
+      "Motorsykkel p\u00e5 tre hjul",
+      "Biler med minst to personer i",
+      "Elektriske biler"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "N\u00e5r er siktstrekningen st\u00f8rst?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bilvei.png",
+    "answers": [
+      "N\u00e5r man bruker kj\u00f8relys",
+      "N\u00e5r man bruker fjernlys",
+      "N\u00e5r man bruker ekstralys",
+      "N\u00e5r det er dagslys"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hva er noe av det m\u00e5 man vurdere f\u00f8r man foretar en forbikj\u00f8ring?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/sidespeil-pa-bil.png",
+    "answers": [
+      "Er forbikj\u00f8ringsstrekningen lang nok?",
+      "Er det lov til \u00e5 foreta en forbikj\u00f8ring p\u00e5 det aktuelle stedet?",
+      "Er det noen bak meg som har begynt \u00e5 kj\u00f8re forbi?",
+      "Alle de tre alternativene over er riktige"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Den gule bilen holder samme fart som semitraileren ved siden av seg. Er det greit at den gule bilen ligger i det feltet?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/07/2.jpg",
+    "answers": [
+      "Ja, det spiller ikke noen rolle om man bruker det h\u00f8yre eller venstre feltet p\u00e5 motorveien",
+      "Ja, s\u00e5 lenge trafikken i feltet ved siden av kan kj\u00f8re forbi",
+      "Nei, det feltet den gule bilen ligger i, skal kun brukes n\u00e5r man kj\u00f8rer forbi",
+      "Nei, det er motg\u00e5ende trafikk i det feltet som den gule bilen ligger i "
+    ],
+    "correct_answer": 3
+  },
+  {
+    "title": "Du kj\u00f8rer p\u00e5 en veistrekning hvor dette skiltet gjelder. Kan du da kj\u00f8re forbi en bil som skal svinge til venstre?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/334_0.jpg",
+    "answers": [
+      "Nei, det er ikke lov til \u00e5 foreta en forbikj\u00f8ring p\u00e5 en veistrekning med dette skiltet",
+      "Det kommer an p\u00e5 om bilen st\u00e5r i ro eller ikke",
+      "Ja, man kan kj\u00f8re forbi p\u00e5 h\u00f8yre side",
+      "Ja, man kan kj\u00f8re forbi p\u00e5 venstre side"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "title": "Hva skjer med siktstrekningen n\u00e5r du kj\u00f8rer p\u00e5 en m\u00f8rk vei og det kommer en bil imot?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/imotekommende-bil-i-morket.png",
+    "answers": [
+      "Man f\u00e5r kortere siktstrekning",
+      "Man f\u00e5r lengre siktstrekning",
+      "Siktstrekningen blir dobbelt s\u00e5 lang",
+      "Siktstrekningen tilsvarer sikten i dagslys"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "title": "Du kj\u00f8rer mot et planovergang og ser at det blinker hvitt lys ved overgangen. Hva skal du gj\u00f8re?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/togskinner.png",
+    "answers": [
+      "Stoppe og vente p\u00e5 gr\u00f8nt lys",
+      "Kj\u00f8re over hvis det er klart fra h\u00f8yre, for tog som kommer fra venstre, har vikeplikt for deg",
+      "Stoppe bilen 25 meter fra overgangen",
+      "Passere overgangen hvis det er trygt \u00e5 gj\u00f8re det"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hva kan v\u00e6re utfordrende n\u00e5r man kj\u00f8rer p\u00e5 en l\u00f8s grusvei?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/grusvei.png",
+    "answers": [
+      "At man kan f\u00e5 lengre bremselengde",
+      "At det kan v\u00e6re fare for steinsprut",
+      "At man kan f\u00e5 d\u00e5rligere veigrep",
+      "Alle de 3 alternativene over er riktige"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hvilken av disse fartsgrensene regnes som en generell fartsgrense?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/362_100.jpg",
+    "answers": [
+      "30 km/t",
+      "60 km/t",
+      "70 km/t",
+      "80 km/t"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hvem av disse kan ikke kj\u00f8re i et sambruksfelt?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/509_0.jpg",
+    "answers": [
+      "Sykkel",
+      "Trehjuls moped",
+      "Uniformerte utrykningskj\u00f8ret\u00f8y",
+      "Hydrogendrevne biler"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "Hva er riktig n\u00e5r det gjelder fart?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/person-kjorer-bil-.png",
+    "answers": [
+      "Man m\u00e5 tilpasse farten etter sikten",
+      "Man m\u00e5 tilpasse farten etter omr\u00e5det",
+      "Man m\u00e5 tilpasse farten etter f\u00f8ret",
+      "Alle alternativene over er riktige"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Befinner noen av personbilene seg i en blindsone?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/07/2.jpg",
+    "answers": [
+      "Ja, den gule bilen",
+      "Ja, den svarte bilen",
+      "Ja, b\u00e5de den gule og den svarte bilen ",
+      "Nei, det er mulig for begge semitrailerne \u00e5 se begge personbilene"
+    ],
+    "correct_answer": 3
+  },
+  {
+    "title": "Hvilket alternativ er galt?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/20180725_212103.jpg",
+    "answers": [
+      "Det er helt i orden \u00e5 kj\u00f8re s\u00e5 sakte man vil, bare man ikke overskrider fartsgrensen",
+      "Det er ikke lov til \u00e5 overskride fartsgrensen",
+      "Man skal ikke kj\u00f8re s\u00e5 sakte at man un\u00f8dig hindrer eller forstyrrer trafikken",
+      "Loven sier at man skal vise hensyn til dem som bor ved veien"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "title": "Hva er riktig?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bil-kjorer-i-morket-e1664885820942.png",
+    "answers": [
+      "N\u00e5 farten dobles, firedobles bremselengden",
+      "Bremselengden er lik p\u00e5 v\u00e5t asfalt og t\u00f8rr asfalt",
+      "En bil som kj\u00f8rer i 50 km/t har bare halvparten s\u00e5 lang bremselengde som en bil som kj\u00f8rer i 100 km/t",
+      "Bevegelsesenergi er det samme som fart"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "title": "Du n\u00e6rmer deg en planovergang. Hvilket av disse skiltene er det f\u00f8rste som forteller deg at du n\u00e6rmer deg en planovergang?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/03/planovergang-2.jpg",
+    "answers": [
+      "A ",
+      "B ",
+      "C ",
+      "D "
+    ],
+    "correct_answer": 3
+  },
+  {
+    "title": "N\u00e5r b\u00f8r man beregne mer enn 3 sekunders avstand til forankj\u00f8rende bil?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/06/trafikkskilt-felt.jpg",
+    "answers": [
+      "N\u00e5r man kj\u00f8rer over 80 km/t",
+      "N\u00e5r man kj\u00f8rer over 50 km/t",
+      "N\u00e5r man kj\u00f8rer med vinterdekk",
+      "N\u00e5r man kj\u00f8rer piggfritt"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "title": "Hva skal man ta i betraktning n\u00e5r man skal avpasse farten?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/en-som-kjorer-bil-pa-vei.png",
+    "answers": [
+      "F\u00f8ret",
+      "Sikten",
+      "Omr\u00e5det man kj\u00f8rer i",
+      "Alle alternativene over"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hva menes med lyshorn?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bil-i-skog-med-lysene-pa.png",
+    "answers": [
+      "Det betyr at man bruker fjernlysene",
+      "Det betyr at man blinker med fjernlysene for \u00e5 gi signal til andre",
+      "Det betyr at man bruker hornet og fjernlysene samtidig for \u00e5 signalisere til medtrafikanter",
+      "Det betyr at man bruker fjernlysene feil (feiljustert)"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "N\u00e5r er det lov \u00e5 bruke venstre kj\u00f8refelt p\u00e5 en flerfeltsvei?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/06/campingvogn-pa-motovei.jpg",
+    "answers": [
+      "N\u00e5r man skal kj\u00f8re forbi",
+      "N\u00e5r h\u00f8yre felt er fullt pga. stor trafikk og det gir bedre trafikkavvikling \u00e5 bruke venstre kj\u00f8refelt",
+      "N\u00e5r man skal svinge til venstre i et kryss",
+      "Alle alternativene er riktige"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hvilket alternativ er riktig?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/frontlys-pa-bil-blir-vasket.png",
+    "answers": [
+      "Fjernlys i m\u00f8rke gir like god sikt som dagslys",
+      "Skitne lykteglass reduserer sikten i m\u00f8rket",
+      "Man skal alltid bruke fjernlys n\u00e5r det er m\u00f8rkt",
+      "Fjernlys skal bare brukes ved h\u00f8ye fartgrenser"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "Hva er fartsgrensen i Norge hvis det ikke er satt opp skilt?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/218.jpg",
+    "answers": [
+      "40 i tettbygde str\u00f8k, 80 ellers",
+      "50 i tettbygde str\u00f8k, 80 ellers",
+      "60 i tettbygde str\u00f8k, 80 ellers",
+      "50 i tettbygde str\u00f8k, 70 ellers"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "Hva er riktig n\u00e5r man selv blir forbikj\u00f8rt?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/sidespeil-pa-bil-som-kjorer-e1666680911383.png",
+    "answers": [
+      "Man skal ikke \u00f8ke farten",
+      "Man skal stanse hvis det blir n\u00f8dvendig",
+      "Man skal holde s\u00e5 langt til h\u00f8yre som mulig",
+      "Alle alternativene er riktige"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Du stopper langs veien i m\u00f8rket. Hva m\u00e5 du huske n\u00e5r det gjelder bilens lys?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bil-i-morket-med-lys.png",
+    "answers": [
+      "Du m\u00e5 skifte til parkeringslys",
+      "Du m\u00e5 sl\u00e5 av lysene",
+      "Du m\u00e5 sette p\u00e5 n\u00f8dblinken",
+      "Du m\u00e5 ta p\u00e5 fjernlysene"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "title": "Hvem av disse kan kj\u00f8re i et sambruksfelt?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/509_0.jpg",
+    "answers": [
+      "Biler som har d\u00e5rlig tid",
+      "Biler produsert i Europa",
+      "Alle biler som har plass til passasjerer",
+      "Elektriske biler"
+    ],
+    "correct_answer": 4
+  },
+  {
+    "title": "Hvem har ansvaret for \u00e5 avpasse bilens fart?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/dame-kjorer-med-passasjer-ved-siden-av-seg-e1664886634472.png",
+    "answers": [
+      "F\u00f8reren",
+      "Trafikken foran",
+      "Fartsgrenseskiltene",
+      "Bilprodusenten"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "title": "Hvorfor er det viktig \u00e5 se i speilet og sjekke d\u00f8dvinkelen/blindsonen f\u00f8r man foretar en forbikj\u00f8ring?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/forbikjoring-i-blindsona.png",
+    "answers": [
+      "Fordi man skal se i speilet med jevne mellomrom",
+      "Fordi det kan avsl\u00f8re om en bil bak deg er i ferd med \u00e5 kj\u00f8re forbi deg",
+      "Fordi man alltid b\u00f8r vite hvor bilen ligger i forhold til midtstripen",
+      "Fordi man b\u00f8r sjekke om speilet er riktig innstilt f\u00f8r man foretar en forbikj\u00f8ring"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "Er det lov til \u00e5 passere et gr\u00f8nt lys hvis veien ikke er fri?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/gront-lys-trafikk.png",
+    "answers": [
+      "Ja ",
+      "Nei ",
+      "Ja, for da ser de som hindrer veien, at de hindrer trafikkflyten",
+      "Ja, man skal alltid kj\u00f8re n\u00e5r det er gr\u00f8nt lys"
+    ],
+    "correct_answer": 2
+  },
+  {
+    "title": "Hvor fort er det tillatt \u00e5 kj\u00f8re i et gatetun?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/06/540_0.jpg",
+    "answers": [
+      "Gangfart",
+      "10 km/t",
+      "20 km/t",
+      "30 km/t"
+    ],
+    "correct_answer": 1
+  },
+  {
+    "title": "Hvordan skal du kj\u00f8re hvis du kommer til denne skiltkombinasjonen?",
+    "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/03/teleskade-copy-2.jpg",
+    "answers": [
+      "Kj\u00f8re s\u00e5 fort som skiltene viser",
+      "Sette ned farten og kj\u00f8re etter forholdene",
+      "Fortsette \u00e5 kj\u00f8re s\u00e5 fort som skiltene viser, men hvis det blir ubehagelig, skal farten reduseres",
+      "Redusere farten s\u00e5pass at man maks kj\u00f8rer i 30 km/t"
+    ],
+    "correct_answer": 2
   }
 ]

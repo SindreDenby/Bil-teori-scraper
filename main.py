@@ -20,6 +20,12 @@ def click_all_questions(driver: webdriver.Chrome):
 		nesteBtn = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_6"]/div[{i}]/div/div[4]/input[2]')
 		nesteBtn.click()
 
+def get_img_url(driver: webdriver.Chrome, questionNum: int):
+	xPath = f'//*[@id="ays_finish_quiz_6"]/div[48]/div[{questionNum}]/div/div[2]/img'
+	image_element = driver.find_element(By.XPATH, xPath)
+
+	return image_element.get_attribute('src') # type: ignore
+
 def get_answers_from_number(questionNum: int, driver: webdriver.Chrome) -> tuple[list[str], int]:
 	answers: list[WebElement] = []
 	correctAnswer = -1
@@ -46,8 +52,11 @@ def get_all_questions(driver: webdriver.Chrome):
 	for i in range(1, 46):
 		title = get_question_title(i, driver)
 		answers, correctAnswer = get_answers_from_number(i, driver)
+		image_url = get_img_url(driver, i)
+
 		questions.append({
 			'title': title,
+			'image_url': image_url,
 			'answers': answers,
 			'correct_answer': correctAnswer 
 		})
@@ -59,7 +68,6 @@ def get_all_questions(driver: webdriver.Chrome):
 def main():
 	with open('bilteoriCreds.json', 'r') as f:
 		creds = json.load(f)
-		print(creds)
 
 	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 	driver.get("https://www.bil-teori.no/min-konto/")
@@ -106,7 +114,8 @@ def main():
 		f.write(json.dumps(questions))
 
 	print("Questions saved")
-	pass
+
+	driver.quit()
 
 if __name__ == '__main__':
 	main()
