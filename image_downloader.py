@@ -21,7 +21,7 @@ def main():
 		with open(img_name, 'wb') as handler:
 			handler.write(img_data)
 
-		questions[i]['image_lcoal_path']
+		questions[i]['image_local_path'] = img_name
 
 		with open('out.json', 'w+') as f:
 			f.write(json.dumps(questions, indent=2))
