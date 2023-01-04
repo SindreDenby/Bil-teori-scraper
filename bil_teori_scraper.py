@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 import time
 import cleaner
-
+from selenium.webdriver.chrome.options import Options
 
 def click_all_questions(driver: webdriver.Chrome):
 	for i in range(2, 47):
@@ -107,8 +107,10 @@ def start_eksamen(driver: webdriver.Chrome):
 	
 
 def main():
-	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
-	driver.minimize_window()
+	chrome_options = Options()
+
+	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+	
 	driver.get("https://www.bil-teori.no/min-konto/")
 
 	time.sleep(2)
@@ -137,7 +139,9 @@ def main():
 	with open('out.json', 'w+', encoding='utf8') as f:
 		f.write(json.dumps(questions, indent=4))
 
-	print(f"Questions saved with {new_qeustions_count - old_questions_count} new questions")
+	new_quest_dif = new_qeustions_count - old_questions_count
+
+	print(f"Questions saved with {new_quest_dif} new question{'s' if new_quest_dif > 1 else ''}")
 
 	driver.quit()
 
