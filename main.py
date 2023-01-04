@@ -7,6 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 import time
 
+
+'//*[@id="ays_finish_quiz_4"]/div[48]/div[3]/div/div[1]/h3'
 def click_all_questions_pensum(driver: webdriver.Chrome):
 	for i in range(2, 47):
 		firstAlternative = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_6"]/div[{i}]/div/div[3]/div[1]/label[1]')
@@ -26,7 +28,7 @@ def click_all_questions_eksamen(driver: webdriver.Chrome):
 		try:
 			firstAlternative.click()
 		except ElementClickInterceptedException:
-			print("failed click")
+			print("failed click, retrying")
 			time.sleep(.3)
 			firstAlternative.click()
 		
@@ -55,15 +57,20 @@ def get_answers_from_number(questionNum: int, driver: webdriver.Chrome) -> tuple
 	return  answersStr, correctAnswer
 
 def get_question_title(questionNum: int, driver: webdriver.Chrome) -> str:
-	title = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_4"]/div[48]/div[{questionNum}]/div/div[1]/h3/strong')
+	title = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_4"]/div[48]/div[{questionNum}]/div/div[1]/h3')
 
-	return title.get_attribute("textContent") # type: ignore
+	return title.get_attribute("innerHTML") # type: ignore
 
 def get_all_questions_pensum(driver: webdriver.Chrome):
 	questions: list[object] = []
 
 	for i in range(1, 46):
-		title = get_question_title(i, driver)
+		try:
+			title = get_question_title(i, driver)
+		except:
+			print(f"Failed read title index:{i}")
+			time.sleep(10000)
+			title = get_question_title(i, driver)
 		answers, correctAnswer = get_answers_from_number(i, driver)
 		image_url = get_img_url(driver, i)
 
@@ -93,7 +100,6 @@ def get_all_questions_eksamen(driver: webdriver.Chrome):
 
 	return questions
 
-'//*[@id="ays_finish_quiz_4"]/div[48]/div[1]/div/div[3]/div[2]/label[1]'
 
 def do_login(driver: webdriver.Chrome):
 	with open('bilteoriCreds.json', 'r') as f:
