@@ -11,6 +11,12 @@ def remove_duplicates(questions: list[dict[str, str]]):
 
     return res_list
 
+def remove_duplicates_and_sort(questions: list[dict[str, str]]):
+    newQuest = remove_duplicates(questions)
+    newQuest = sort_questions(newQuest)
+
+    return newQuest
+
 def main():
     with open('out.json', 'r') as f:
         questions: list[dict[str, str]] = json.load(f)
@@ -18,7 +24,7 @@ def main():
     questions = remove_duplicates(questions)
 
     questions = sort_questions(questions)
-    with open('sorted.json', 'w+') as f:
+    with open('cleaned.json', 'w+') as f:
         f.write(json.dumps(questions))
     
 if __name__ == '__main__':

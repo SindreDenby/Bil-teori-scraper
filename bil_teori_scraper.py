@@ -6,6 +6,7 @@ import json
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 import time
+import cleaner
 
 
 def click_all_questions(driver: webdriver.Chrome):
@@ -47,7 +48,7 @@ def get_question_title(questionNum: int, driver: webdriver.Chrome) -> str:
 
 	return title.get_attribute("innerHTML") # type: ignore
 
-def get_all_questions(driver: webdriver.Chrome):
+def get_all_questions(driver: webdriver.Chrome) -> list[dict[str, str]]:
 	questions: list[object] = []
 
 	for i in range(1, 46):
@@ -67,7 +68,7 @@ def get_all_questions(driver: webdriver.Chrome):
 			'correct_answer': correctAnswer 
 		})
 
-	return questions
+	return questions # type: ignore
 
 def do_login(driver: webdriver.Chrome):
 	with open('bilteoriCreds.json', 'r') as f:
@@ -124,14 +125,20 @@ def main():
 	time.sleep(10)
 
 	with open('out.json', 'r') as f:
-		questions: list[object] = json.load(f)
-		
+		questions: list[dict[str, str]] = json.load(f)
+	
+	old_questions_count = len(questions)
+
 	questions.extend(get_all_questions(driver))
+
+	questions = cleaner.remove_duplicates_and_sort(questions)
+
+	new_qeustions_count = len(questions)
 
 	with open('out.json', 'w+', encoding='utf8') as f:
 		f.write(json.dumps(questions))
 
-	print("Questions saved")
+	print(f"Questions saved with {new_qeustions_count - old_questions_count} new questions")
 
 	driver.quit()
 
