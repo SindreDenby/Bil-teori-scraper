@@ -23,17 +23,6 @@
     },
     {
         "title": "<b>Hva betyr skiltet?<br>\n</b>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/139_0.jpg",
-        "answers": [
-            "Tog",
-            "Sporvogn",
-            "Elektrisk buss",
-            "Hurtigtog"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<b>Hva betyr skiltet?<br>\n</b>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/122_0.jpg",
         "answers": [
             "Tunnel",
@@ -77,6 +66,17 @@
         "correct_answer": 1
     },
     {
+        "title": "<b>Hva betyr skiltet?<br>\n</b>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/139_0.jpg",
+        "answers": [
+            "Tog",
+            "Sporvogn",
+            "Elektrisk buss",
+            "Hurtigtog"
+        ],
+        "correct_answer": 2
+    },
+    {
         "title": "<strong>\"Enhver skal ferdes hensynsfullt og v\u00e6re aktp\u00e5givende og varsom s\u00e5 det ikke kan oppst\u00e5 fare eller voldes skade og slik at annen trafikk ikke un\u00f8dig blir hindret eller forstyrret\", st\u00e5r det i veitrafikkloven. Hva menes med \"aktp\u00e5givende\"?&nbsp;</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/215.jpg",
         "answers": [
@@ -117,6 +117,17 @@
             "Nei ",
             "Det kommer an p\u00e5 hvorfor man mistet lappen",
             "Det kommer an p\u00e5 om man har noen prikker p\u00e5 f\u00f8rerkortet"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "title": "<strong>Den gule bilen skal svinge til venstre i krysset. Hvor skal den ligge?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/03/stort-veikryss-bokstaver.jpg",
+        "answers": [
+            "A ",
+            "B ",
+            "C ",
+            "Enten A eller B"
         ],
         "correct_answer": 1
     },
@@ -394,6 +405,17 @@
             "Ja, man kan kj\u00f8re forbi p\u00e5 venstre side"
         ],
         "correct_answer": 3
+    },
+    {
+        "title": "<strong>Du kj\u00f8rer p\u00e5 motorveien og ser at det kommer en bil i feltet for farts\u00f8kning. Hva skal du gj\u00f8re, i samsvar med skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/06/531_202.jpg",
+        "answers": [
+            "Ingenting, den andre bilen har vikeplikt",
+            "Bremse kraftig ned for \u00e5 slippe bilen inn p\u00e5 motorveien",
+            "Blinke p\u00e5 bilen, for \u00e5 vise at du kommer kj\u00f8rende",
+            "Lette utkj\u00f8ringen ved \u00e5 tilpasse farten eller bytte kj\u00f8refelt"
+        ],
+        "correct_answer": 4
     },
     {
         "title": "<strong>Du kj\u00f8rer utenfor tettbygd str\u00f8k. Det st\u00e5r ikke noe skilt om fartsgrensen. Hva er fartsgrensen?</strong>",
@@ -781,6 +803,17 @@
         "correct_answer": 2
     },
     {
+        "title": "<strong>Er det smart \u00e5 tute for \u00e5 advare barn som leker i veikanten?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/mann-som-tuter-med-hornet-pa-bilen--e1666683207581.png",
+        "answers": [
+            "Ja, da vil de sannsynligvis flytte seg",
+            "Ja, men ikke mer enn et lite tut",
+            "Ja, men bare hvis barna ikke har sett bilen",
+            "Nei   "
+        ],
+        "correct_answer": 4
+    },
+    {
         "title": "<strong>Er det tillat \u00e5 snakke med passasjerene i bilen mens man kj\u00f8rer?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/sjafor-og-passasjerer-prater-sammen.png",
         "answers": [
@@ -957,6 +990,17 @@
         "correct_answer": 1
     },
     {
+        "title": "<strong>Har den hvite bilen lov til \u00e5 foreta en forbikj\u00f8ring her?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/03/forbikjorings.jpg",
+        "answers": [
+            "Ja ",
+            "Nei ",
+            "Ja, hvis den har d\u00e5rlig tid",
+            "Ja, hvis det er en landevei"
+        ],
+        "correct_answer": 2
+    },
+    {
         "title": "<strong>Har du vikeplikt for en bil som kj\u00f8rer ut fra en parkeringsplass?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/parkeringsplass-med-biler.png",
         "answers": [
@@ -988,6 +1032,17 @@
             "Det har bare innvirkning p\u00e5 sv\u00e6rt gamle batterier"
         ],
         "correct_answer": 1
+    },
+    {
+        "title": "<strong>Har man lov til \u00e5 kj\u00f8re p\u00e5 privat eiendom n\u00e5r man er beruset?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/smal-vei-uten-oppmerking-.png",
+        "answers": [
+            "Ja ",
+            "Ja, dersom man ikke skader andre",
+            "Ja, dersom man kun holder seg p\u00e5 privat vei",
+            "Nei "
+        ],
+        "correct_answer": 4
     },
     {
         "title": "<strong>Har man lov til \u00e5 kj\u00f8re s\u00e5 sakte man vil?</strong>",
@@ -1200,23 +1255,23 @@
     },
     {
         "title": "<strong>Hva betyr dette skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/204_0.jpg",
-        "answers": [
-            "At det er tillatt \u00e5 stanse der, men at parkering er forbudt",
-            "At man skal stoppe helt opp f\u00f8r man kj\u00f8rer inn p\u00e5 kryssende vei",
-            "At man har kommet til enden av en blindvei",
-            "At man ikke har lov til \u00e5 kj\u00f8re lenger"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hva betyr dette skiltet?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/723_12.jpg",
         "answers": [
             "At man kj\u00f8rer p\u00e5 E6",
             "At man kj\u00f8rer p\u00e5 en vei som f\u00f8rer til E6",
             "At man nylig har forlatt E6",
             "At man kj\u00f8rer p\u00e5 E6, men at veien er under arbeid"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva betyr dette skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/204_0.jpg",
+        "answers": [
+            "At det er tillatt \u00e5 stanse der, men at parkering er forbudt",
+            "At man skal stoppe helt opp f\u00f8r man kj\u00f8rer inn p\u00e5 kryssende vei",
+            "At man har kommet til enden av en blindvei",
+            "At man ikke har lov til \u00e5 kj\u00f8re lenger"
         ],
         "correct_answer": 2
     },
@@ -1252,17 +1307,6 @@
             "Det er kun motorsykler som kan bruke feltet"
         ],
         "correct_answer": 3
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/306_1.jpg",
-        "answers": [
-            "Forbudt for motorvogn",
-            "Forbudt for biler \u00e5 kj\u00f8re for n\u00e6rt motorsykler",
-            "V\u00e6r obs p\u00e5 at motorsykler krysser veibanen",
-            "Motorsykler har forkj\u00f8rsrett"
-        ],
-        "correct_answer": 1
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
@@ -1431,17 +1475,6 @@
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/06/640_20.jpg",
-        "answers": [
-            "Fare for eksplosiver",
-            "Fyrt\u00e5rn",
-            "Knutepunkt",
-            "Utkikkspunkt"
-        ],
-        "correct_answer": 4
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/210_0.jpg",
         "answers": [
             "At man har vikeplikt for kj\u00f8rende fra h\u00f8yre",
@@ -1453,28 +1486,6 @@
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/124_0.jpg",
-        "answers": [
-            "At to veier krysses i hvert sitt plan",
-            "Du varsles om et farlig veikryss",
-            "At det har v\u00e6rt mange d\u00f8dsulykker p\u00e5 denne strekningen",
-            "At du har krysset en fylkesgrense"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/152_0.jpg",
-        "answers": [
-            "Orkan i omr\u00e5det",
-            "At det ofte er sterk sidevind p\u00e5 stedet",
-            "Mange l\u00f8se gjenstander flyr i luften",
-            "Det blir v\u00e6romslag"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/03/640_30.jpg",
         "answers": [
             "Naturvernomr\u00e5de",
@@ -1483,17 +1494,6 @@
             "Store sn\u00f8mengder"
         ],
         "correct_answer": 1
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/117_0.jpg",
-        "answers": [
-            "Ujevn vei",
-            "Fergekai",
-            "At det er en farlig veiskulder",
-            "At det ikke er et forbikj\u00f8ringsfelt"
-        ],
-        "correct_answer": 3
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
@@ -1541,28 +1541,6 @@
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/372_0.jpg",
-        "answers": [
-            "Farlig vei",
-            "Parkering forbudt",
-            "Stans forbudt",
-            "P\u00e5budt med bilbelte"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/524_0.jpg",
-        "answers": [
-            "Metro",
-            "Marked",
-            "M\u00f8teplass",
-            "M\u00f8rkekj\u00f8ring"
-        ],
-        "correct_answer": 3
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/505_0.jpg",
         "answers": [
             "Forbudt for biler",
@@ -1582,17 +1560,6 @@
             "At man kj\u00f8rer p\u00e5 en forkj\u00f8rsvei"
         ],
         "correct_answer": 4
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/112_0.jpg",
-        "answers": [
-            "Veiarbeid",
-            "Fare for steinsprut",
-            "Rasfare",
-            "Fare for eksplosiver i veibanen"
-        ],
-        "correct_answer": 2
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
@@ -1618,17 +1585,6 @@
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/518_0.jpg",
-        "answers": [
-            "Skolebarn krysser",
-            "Gangvei",
-            "Byg\u00e5rd",
-            "Fotgjengerovergang"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/108_0.jpg",
         "answers": [
             "Veien er ujevn",
@@ -1637,17 +1593,6 @@
             "Du kommer inn p\u00e5 en landevei som er smalere enn 6 m"
         ],
         "correct_answer": 1
-    },
-    {
-        "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/527_1.jpg",
-        "answers": [
-            "T-kryss",
-            "Blindvei",
-            "Hus i enden av veien",
-            "Parkeringsplass i enden av veien"
-        ],
-        "correct_answer": 2
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
@@ -1662,6 +1607,39 @@
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/116_0.jpg",
+        "answers": [
+            "At det er glatt kj\u00f8rebane",
+            "At det er en svingete vei",
+            "At det er lett \u00e5 velte",
+            "At det er mange som er beruset p\u00e5 veistrekningen"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/06/640_20.jpg",
+        "answers": [
+            "Fare for eksplosiver",
+            "Fyrt\u00e5rn",
+            "Knutepunkt",
+            "Utkikkspunkt"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/112_0.jpg",
+        "answers": [
+            "Veiarbeid",
+            "Fare for steinsprut",
+            "Rasfare",
+            "Fare for eksplosiver i veibanen"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/618.jpg",
         "answers": [
             "Ikke lov til \u00e5 sl\u00e5 opp telt",
@@ -1673,12 +1651,89 @@
     },
     {
         "title": "<strong>Hva betyr skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/116_0.jpg",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/124_0.jpg",
         "answers": [
-            "At det er glatt kj\u00f8rebane",
-            "At det er en svingete vei",
-            "At det er lett \u00e5 velte",
-            "At det er mange som er beruset p\u00e5 veistrekningen"
+            "At to veier krysses i hvert sitt plan",
+            "Du varsles om et farlig veikryss",
+            "At det har v\u00e6rt mange d\u00f8dsulykker p\u00e5 denne strekningen",
+            "At du har krysset en fylkesgrense"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/527_1.jpg",
+        "answers": [
+            "T-kryss",
+            "Blindvei",
+            "Hus i enden av veien",
+            "Parkeringsplass i enden av veien"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/372_0.jpg",
+        "answers": [
+            "Farlig vei",
+            "Parkering forbudt",
+            "Stans forbudt",
+            "P\u00e5budt med bilbelte"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/117_0.jpg",
+        "answers": [
+            "Ujevn vei",
+            "Fergekai",
+            "At det er en farlig veiskulder",
+            "At det ikke er et forbikj\u00f8ringsfelt"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/518_0.jpg",
+        "answers": [
+            "Skolebarn krysser",
+            "Gangvei",
+            "Byg\u00e5rd",
+            "Fotgjengerovergang"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/152_0.jpg",
+        "answers": [
+            "Orkan i omr\u00e5det",
+            "At det ofte er sterk sidevind p\u00e5 stedet",
+            "Mange l\u00f8se gjenstander flyr i luften",
+            "Det blir v\u00e6romslag"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/524_0.jpg",
+        "answers": [
+            "Metro",
+            "Marked",
+            "M\u00f8teplass",
+            "M\u00f8rkekj\u00f8ring"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "title": "<strong>Hva betyr skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/306_1.jpg",
+        "answers": [
+            "Forbudt for motorvogn",
+            "Forbudt for biler \u00e5 kj\u00f8re for n\u00e6rt motorsykler",
+            "V\u00e6r obs p\u00e5 at motorsykler krysser veibanen",
+            "Motorsykler har forkj\u00f8rsrett"
         ],
         "correct_answer": 1
     },
@@ -2146,17 +2201,6 @@
     },
     {
         "title": "<strong>Hva er riktig?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/134_0.jpg",
-        "answers": [
-            "Jeg har lov til \u00e5 stanse 3 meter foran en planovergang",
-            "Jeg har lov til \u00e5 passere en planovergang n\u00e5r det blinker hvitt lys, dersom det er trygt \u00e5 gj\u00f8re det",
-            "Jeg har lov til \u00e5 passere en planovergang n\u00e5r det blinker r\u00f8d lys, dersom det ikke er tog i sikte",
-            "N\u00e5r det blinker hvitt lys ved en planovergang, trenger jeg ikke \u00e5 se meg for"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hva er riktig?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bil-lyser-opp-veien-.png",
         "answers": [
             "Blinklys skal kun brukes i helt spesielle tilfeller",
@@ -2168,17 +2212,6 @@
     },
     {
         "title": "<strong>Hva er riktig?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/311.jpg",
-        "answers": [
-            "Man har f\u00f8rerkortet p\u00e5 pr\u00f8ve i 3 \u00e5r etter at man har f\u00e5tt lappen",
-            "Man f\u00e5r en ny pr\u00f8veperiode hvis man f\u00e5r f\u00f8rerkortet tilbake etter \u00e5 ha mistet det i pr\u00f8veperioden",
-            "Hvis man kj\u00f8rer skadefritt det f\u00f8rste \u00e5ret av pr\u00f8veperioden, er pr\u00f8veperioden fullf\u00f8rt",
-            "Alle alternativene er riktige"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hva er riktig?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2021/12/CAM01471.jpg",
         "answers": [
             "Motorvei har en lavere standard enn motortrafikkvei",
@@ -2187,17 +2220,6 @@
             "En motortrafikkvei skal ha midtdeler"
         ],
         "correct_answer": 3
-    },
-    {
-        "title": "<strong>Hva er riktig?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bil-kjorer-i-morket-e1664885820942.png",
-        "answers": [
-            "N\u00e5 farten dobles, firedobles bremselengden",
-            "Bremselengden er lik p\u00e5 v\u00e5t asfalt og t\u00f8rr asfalt",
-            "En bil som kj\u00f8rer i 50 km/t har bare halvparten s\u00e5 lang bremselengde som en bil som kj\u00f8rer i 100 km/t",
-            "Bevegelsesenergi er det samme som fart"
-        ],
-        "correct_answer": 1
     },
     {
         "title": "<strong>Hva er riktig?</strong>",
@@ -2256,17 +2278,6 @@
     },
     {
         "title": "<strong>Hva er riktig?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/sykkel-i-sykkevei-e1665409731528.png",
-        "answers": [
-            "Man har vikeplikt for en sykkel som kommer inn p\u00e5 veien fra en sykkelvei",
-            "Man har ikke vikeplikt for en sykkel som kommer inn p\u00e5 veien fra en sykkelvei",
-            "Man har vikeplikt for en sykkel som kommer inn p\u00e5 veien fra en gangvei",
-            "Man har alltid vikeplikt for en sykkel"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hva er riktig?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/06/540_0.jpg",
         "answers": [
             "I et gatetun er det ikke lov \u00e5 kj\u00f8re fortere enn gangfart",
@@ -2278,12 +2289,56 @@
     },
     {
         "title": "<strong>Hva er riktig?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/134_0.jpg",
+        "answers": [
+            "Jeg har lov til \u00e5 stanse 3 meter foran en planovergang",
+            "Jeg har lov til \u00e5 passere en planovergang n\u00e5r det blinker hvitt lys, dersom det er trygt \u00e5 gj\u00f8re det",
+            "Jeg har lov til \u00e5 passere en planovergang n\u00e5r det blinker r\u00f8d lys, dersom det ikke er tog i sikte",
+            "N\u00e5r det blinker hvitt lys ved en planovergang, trenger jeg ikke \u00e5 se meg for"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva er riktig?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/fler-bildekk-stilt-opp.png",
         "answers": [
             "Piggdekk er bedre enn piggfrie dekk p\u00e5 v\u00e5t is",
             "Piggdekk lager mindre st\u00f8y enn piggfrie dekk",
             "Piggdekk er mer milj\u00f8vennlige enn piggfrie dekk",
             "Piggfrie dekk gir godt grep p\u00e5 sommerf\u00f8re og b\u00f8r derfor brukes p\u00e5 sommeren"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "title": "<strong>Hva er riktig?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/sykkel-i-sykkevei-e1665409731528.png",
+        "answers": [
+            "Man har vikeplikt for en sykkel som kommer inn p\u00e5 veien fra en sykkelvei",
+            "Man har ikke vikeplikt for en sykkel som kommer inn p\u00e5 veien fra en sykkelvei",
+            "Man har vikeplikt for en sykkel som kommer inn p\u00e5 veien fra en gangvei",
+            "Man har alltid vikeplikt for en sykkel"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva er riktig?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/311.jpg",
+        "answers": [
+            "Man har f\u00f8rerkortet p\u00e5 pr\u00f8ve i 3 \u00e5r etter at man har f\u00e5tt lappen",
+            "Man f\u00e5r en ny pr\u00f8veperiode hvis man f\u00e5r f\u00f8rerkortet tilbake etter \u00e5 ha mistet det i pr\u00f8veperioden",
+            "Hvis man kj\u00f8rer skadefritt det f\u00f8rste \u00e5ret av pr\u00f8veperioden, er pr\u00f8veperioden fullf\u00f8rt",
+            "Alle alternativene er riktige"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva er riktig?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bil-kjorer-i-morket-e1664885820942.png",
+        "answers": [
+            "N\u00e5 farten dobles, firedobles bremselengden",
+            "Bremselengden er lik p\u00e5 v\u00e5t asfalt og t\u00f8rr asfalt",
+            "En bil som kj\u00f8rer i 50 km/t har bare halvparten s\u00e5 lang bremselengde som en bil som kj\u00f8rer i 100 km/t",
+            "Bevegelsesenergi er det samme som fart"
         ],
         "correct_answer": 1
     },
@@ -2706,6 +2761,17 @@
         "correct_answer": 1
     },
     {
+        "title": "<strong>Hva menes med lyshorn?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/bil-i-skog-med-lysene-pa.png",
+        "answers": [
+            "Det betyr at man bruker fjernlysene",
+            "Det betyr at man blinker med fjernlysene for \u00e5 gi signal til andre",
+            "Det betyr at man bruker hornet og fjernlysene samtidig for \u00e5 signalisere til medtrafikanter",
+            "Det betyr at man bruker fjernlysene feil (feiljustert)"
+        ],
+        "correct_answer": 2
+    },
+    {
         "title": "<strong>Hva skal du gj\u00f8re hvis trafikklyset blinker gult?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/trafikklyssignal.png",
         "answers": [
@@ -2759,6 +2825,17 @@
             "Bremse opp for \u00e5 slippe den forbikj\u00f8rende bilen hurtigst mulig inn i kj\u00f8refeltet igjen"
         ],
         "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hva skal man huske n\u00e5r man i trafikken ser en som har hvit stokk eller f\u00f8rerhund?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/09/blind-person.jpg",
+        "answers": [
+            "At man skal holde tilstrekkelig liten fart og om n\u00f8dvendig stanse straks ved passering",
+            "At man fl\u00f8yter for \u00e5 gi beskjed om at vedkommende kan passere",
+            "At man ruser motoren, slik at vedkommende forst\u00e5r at du kommer kj\u00f8rende",
+            "At vedkommende har veldig god h\u00f8rsel, s\u00e5 man slipper \u00e5 ta hensyn"
+        ],
+        "correct_answer": 1
     },
     {
         "title": "<strong>Hva skal man ta i betraktning n\u00e5r man skal avpasse farten?</strong>",
@@ -3223,6 +3300,17 @@
         "correct_answer": 4
     },
     {
+        "title": "<strong>Hvilken informasjon finner man i vognkortet&nbsp;om bilens dekk?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2021/12/CAM00112-2.jpg",
+        "answers": [
+            "Dekkdimensjonene",
+            "Felgdiameteren",
+            "Hastighetskode",
+            "Alle alternativene er riktige"
+        ],
+        "correct_answer": 4
+    },
+    {
         "title": "<strong>Hvilken pedal er i midten p\u00e5 en bil med manuell gir?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/kvinne-bruker-bil-pedalene-.png",
         "answers": [
@@ -3268,50 +3356,6 @@
     },
     {
         "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/912_0.jpg",
-        "answers": [
-            "Fareskilt",
-            "Markeringsskilt",
-            "Underskilt",
-            "Opplysningsskilt"
-        ],
-        "correct_answer": 2
-    },
-    {
-        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/616.jpg",
-        "answers": [
-            "Opplysningsskilt",
-            "P\u00e5budsskilt",
-            "Serviceskilt",
-            "Underskilt"
-        ],
-        "correct_answer": 3
-    },
-    {
-        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/717.jpg",
-        "answers": [
-            "Opplysningsskilt",
-            "P\u00e5budsskilt",
-            "Fareskilt",
-            "Veivisningsskilt"
-        ],
-        "correct_answer": 4
-    },
-    {
-        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/406_0.jpg",
-        "answers": [
-            "P\u00e5budsskilt",
-            "Veivisningsskilt",
-            "Opplysningsskilt",
-            "Fareskilt"
-        ],
-        "correct_answer": 1
-    },
-    {
-        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/212_0.jpg",
         "answers": [
             "Opplysningsskilt",
@@ -3334,28 +3378,6 @@
     },
     {
         "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/516_H.jpg",
-        "answers": [
-            "Opplysningsskilt",
-            "Underskilt",
-            "Markeringsskilt",
-            "P\u00e5budsskilt"
-        ],
-        "correct_answer": 1
-    },
-    {
-        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/530_11.jpg",
-        "answers": [
-            "Fareskilt",
-            "Markeringsskilt",
-            "Veivisningsskilt",
-            "Opplysningsskilt"
-        ],
-        "correct_answer": 4
-    },
-    {
-        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/402_1.jpg",
         "answers": [
             "Fareskilt",
@@ -3375,6 +3397,72 @@
             "Forbudsskilt"
         ],
         "correct_answer": 1
+    },
+    {
+        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/406_0.jpg",
+        "answers": [
+            "P\u00e5budsskilt",
+            "Veivisningsskilt",
+            "Opplysningsskilt",
+            "Fareskilt"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/616.jpg",
+        "answers": [
+            "Opplysningsskilt",
+            "P\u00e5budsskilt",
+            "Serviceskilt",
+            "Underskilt"
+        ],
+        "correct_answer": 3
+    },
+    {
+        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/516_H.jpg",
+        "answers": [
+            "Opplysningsskilt",
+            "Underskilt",
+            "Markeringsskilt",
+            "P\u00e5budsskilt"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/717.jpg",
+        "answers": [
+            "Opplysningsskilt",
+            "P\u00e5budsskilt",
+            "Fareskilt",
+            "Veivisningsskilt"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/912_0.jpg",
+        "answers": [
+            "Fareskilt",
+            "Markeringsskilt",
+            "Underskilt",
+            "Opplysningsskilt"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "title": "<strong>Hvilken skiltgruppe tilh\u00f8rer dette skiltet?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/530_11.jpg",
+        "answers": [
+            "Fareskilt",
+            "Markeringsskilt",
+            "Veivisningsskilt",
+            "Opplysningsskilt"
+        ],
+        "correct_answer": 4
     },
     {
         "title": "<strong>Hvilken type vei har et slikt skilt?</strong>",
@@ -3400,17 +3488,6 @@
     },
     {
         "title": "<strong>Hvilket alternativ er galt?</strong>",
-        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/jente-sperrer-opp-oynene-med-hendene.png",
-        "answers": [
-            "Det er kun skarpsynet vi trenger n\u00e5r vi kj\u00f8rer bil",
-            "Sidesynet er i bruk n\u00e5r vi kj\u00f8rer bil",
-            "B\u00e5de sidesynet og skarpsynet er n\u00f8dvendig n\u00e5r man skal kj\u00f8re bil",
-            "Skarpsynet utgj\u00f8r en liten del av synsfeltet v\u00e5rt"
-        ],
-        "correct_answer": 1
-    },
-    {
-        "title": "<strong>Hvilket alternativ er galt?</strong>",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/09/sammenstot.png",
         "answers": [
             "Alle som er innblandet i et trafikkuhell, skal stoppe og hjelpe til",
@@ -3430,6 +3507,17 @@
             "Det er forbudt \u00e5 stanse 10 meter f\u00f8r en planovergang"
         ],
         "correct_answer": 4
+    },
+    {
+        "title": "<strong>Hvilket alternativ er galt?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/jente-sperrer-opp-oynene-med-hendene.png",
+        "answers": [
+            "Det er kun skarpsynet vi trenger n\u00e5r vi kj\u00f8rer bil",
+            "Sidesynet er i bruk n\u00e5r vi kj\u00f8rer bil",
+            "B\u00e5de sidesynet og skarpsynet er n\u00f8dvendig n\u00e5r man skal kj\u00f8re bil",
+            "Skarpsynet utgj\u00f8r en liten del av synsfeltet v\u00e5rt"
+        ],
+        "correct_answer": 1
     },
     {
         "title": "<strong>Hvilket alternativ er riktig n\u00e5r det gjelder forbikj\u00f8ring?</strong>",
@@ -3672,6 +3760,17 @@
             "Alle de tre alternativene over er riktige"
         ],
         "correct_answer": 1
+    },
+    {
+        "title": "<strong>Hvor b\u00f8r man plassere lasten p\u00e5 tilhengeren?</strong>",
+        "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/10/henger-festet.png",
+        "answers": [
+            "Foran",
+            "Bak",
+            "Midt p\u00e5",
+            "Alle alternativene er riktige"
+        ],
+        "correct_answer": 3
     },
     {
         "title": "<strong>Hvor finner man bilens tillatte totalvekt?</strong>",

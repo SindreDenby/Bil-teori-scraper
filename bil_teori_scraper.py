@@ -15,7 +15,6 @@ def click_all_questions(driver: webdriver.Chrome):
 		try:
 			firstAlternative.click()
 		except ElementClickInterceptedException:
-			print("failed click, retrying")
 			time.sleep(.3)
 			firstAlternative.click()
 		
@@ -109,6 +108,7 @@ def start_eksamen(driver: webdriver.Chrome):
 
 def main():
 	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+	driver.minimize_window()
 	driver.get("https://www.bil-teori.no/min-konto/")
 
 	time.sleep(2)
@@ -135,14 +135,13 @@ def main():
 	new_qeustions_count = len(questions)
 
 	with open('out.json', 'w+', encoding='utf8') as f:
-		f.write(json.dumps(questions))
+		f.write(json.dumps(questions, indent=4))
 
 	print(f"Questions saved with {new_qeustions_count - old_questions_count} new questions")
 
 	driver.quit()
 
 	main()
-
 
 if __name__ == '__main__':
 	main()
