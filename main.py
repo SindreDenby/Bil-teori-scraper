@@ -6,7 +6,6 @@ import json
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
 import time
-import image_downloader
 
 def click_all_questions_pensum(driver: webdriver.Chrome):
 	for i in range(2, 47):
@@ -28,14 +27,14 @@ def click_all_questions_eksamen(driver: webdriver.Chrome):
 			firstAlternative.click()
 		except ElementClickInterceptedException:
 			print("failed click")
-			time.sleep(.5)
+			time.sleep(.3)
 			firstAlternative.click()
 		
 		nesteBtn = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_4"]/div[{i}]/div/div[4]/input[2]')
 		nesteBtn.click()
 
 def get_img_url(driver: webdriver.Chrome, questionNum: int):
-	xPath = f'//*[@id="ays_finish_quiz_6"]/div[48]/div[{questionNum}]/div/div[2]/img'
+	xPath = f'//*[@id="ays_finish_quiz_4"]/div[48]/div[{questionNum}]/div/div[2]/img'
 	image_element = driver.find_element(By.XPATH, xPath)
 
 	return image_element.get_attribute('src') # type: ignore
@@ -44,7 +43,7 @@ def get_answers_from_number(questionNum: int, driver: webdriver.Chrome) -> tuple
 	answers: list[WebElement] = []
 	correctAnswer = -1
 	for j in range(4):
-		xPath = f'//*[@id="ays_finish_quiz_6"]/div[48]/div[{questionNum}]/div/div[3]/div[{j + 1}]/label[1]'
+		xPath = f'//*[@id="ays_finish_quiz_4"]/div[48]/div[{questionNum}]/div/div[3]/div[{j + 1}]/label[1]'
 		answers.append(driver.find_element(By.XPATH, xPath))
 
 	for i, answer in enumerate(answers) :
@@ -56,11 +55,28 @@ def get_answers_from_number(questionNum: int, driver: webdriver.Chrome) -> tuple
 	return  answersStr, correctAnswer
 
 def get_question_title(questionNum: int, driver: webdriver.Chrome) -> str:
-	title = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_6"]/div[48]/div[{questionNum}]/div/div[1]/h3/strong')
+	title = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_4"]/div[48]/div[{questionNum}]/div/div[1]/h3/strong')
 
 	return title.get_attribute("textContent") # type: ignore
 
 def get_all_questions_pensum(driver: webdriver.Chrome):
+	questions: list[object] = []
+
+	for i in range(1, 46):
+		title = get_question_title(i, driver)
+		answers, correctAnswer = get_answers_from_number(i, driver)
+		image_url = get_img_url(driver, i)
+
+		questions.append({
+			'title': title,
+			'image_url': image_url,
+			'answers': answers,
+			'correct_answer': correctAnswer 
+		})
+
+	return questions
+
+def get_all_questions_eksamen(driver: webdriver.Chrome):
 	questions: list[object] = []
 
 	for i in range(1, 46):
@@ -137,9 +153,12 @@ def main():
 
 	print("Loading questions")
 
-	time.sleep(10000)
+	time.sleep(10)
 
-	questions = get_all_questions_pensum(driver)
+	with open('out.json', 'r') as f:
+		questions: list[object] = json.load(f)
+		
+	questions.extend(get_all_questions_pensum(driver))
 
 	with open('out.json', 'w+', encoding='utf8') as f:
 		f.write(json.dumps(questions))
@@ -148,7 +167,8 @@ def main():
 
 	driver.quit()
 
-	image_downloader.main()
+	main()
+
 
 if __name__ == '__main__':
 	main()
