@@ -90,7 +90,6 @@ def do_login(driver: webdriver.Chrome):
 	loginBtn = driver.find_element(By.NAME, "login")
 	loginBtn.click()
 
-	# time.sleep(4)
 
 def start_del_1_pensum(driver: webdriver.Chrome):
 	
@@ -112,12 +111,12 @@ def main():
 	driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 	driver.get("https://www.bil-teori.no/min-konto/")
 
-	time.sleep(3)
+	time.sleep(2)
 
 	do_login(driver)
 	start_eksamen(driver)
 
-	time.sleep(3)
+	time.sleep(2)
 
 	click_all_questions(driver)
 
