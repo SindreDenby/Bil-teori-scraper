@@ -8,21 +8,7 @@ from selenium.webdriver.remote.webelement import WebElement
 import time
 
 
-'//*[@id="ays_finish_quiz_4"]/div[48]/div[3]/div/div[1]/h3'
-def click_all_questions_pensum(driver: webdriver.Chrome):
-	for i in range(2, 47):
-		firstAlternative = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_6"]/div[{i}]/div/div[3]/div[1]/label[1]')
-		try:
-			firstAlternative.click()
-		except ElementClickInterceptedException:
-			print("failed click")
-			time.sleep(.5)
-			firstAlternative.click()
-		
-		nesteBtn = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_6"]/div[{i}]/div/div[4]/input[2]')
-		nesteBtn.click()
-
-def click_all_questions_eksamen(driver: webdriver.Chrome):
+def click_all_questions(driver: webdriver.Chrome):
 	for i in range(2, 47):
 		firstAlternative = driver.find_element(By.XPATH, f'//*[@id="ays_finish_quiz_4"]/div[{i}]/div/div[3]/div[1]/label[1]')
 		try:
@@ -61,7 +47,7 @@ def get_question_title(questionNum: int, driver: webdriver.Chrome) -> str:
 
 	return title.get_attribute("innerHTML") # type: ignore
 
-def get_all_questions_pensum(driver: webdriver.Chrome):
+def get_all_questions(driver: webdriver.Chrome):
 	questions: list[object] = []
 
 	for i in range(1, 46):
@@ -69,7 +55,7 @@ def get_all_questions_pensum(driver: webdriver.Chrome):
 			title = get_question_title(i, driver)
 		except:
 			print(f"Failed read title index:{i}")
-			time.sleep(10000)
+			time.sleep(2)
 			title = get_question_title(i, driver)
 		answers, correctAnswer = get_answers_from_number(i, driver)
 		image_url = get_img_url(driver, i)
@@ -82,24 +68,6 @@ def get_all_questions_pensum(driver: webdriver.Chrome):
 		})
 
 	return questions
-
-def get_all_questions_eksamen(driver: webdriver.Chrome):
-	questions: list[object] = []
-
-	for i in range(1, 46):
-		title = get_question_title(i, driver)
-		answers, correctAnswer = get_answers_from_number(i, driver)
-		image_url = get_img_url(driver, i)
-
-		questions.append({
-			'title': title,
-			'image_url': image_url,
-			'answers': answers,
-			'correct_answer': correctAnswer 
-		})
-
-	return questions
-
 
 def do_login(driver: webdriver.Chrome):
 	with open('bilteoriCreds.json', 'r') as f:
@@ -146,25 +114,19 @@ def main():
 	time.sleep(3)
 
 	do_login(driver)
-
-	# start_del_1_pensum(driver)
-
 	start_eksamen(driver)
 
 	time.sleep(3)
 
-	# click_all_questions_pensum(driver)
-
-	click_all_questions_eksamen(driver)
+	click_all_questions(driver)
 
 	print("Loading questions")
-
 	time.sleep(10)
 
 	with open('out.json', 'r') as f:
 		questions: list[object] = json.load(f)
 		
-	questions.extend(get_all_questions_pensum(driver))
+	questions.extend(get_all_questions(driver))
 
 	with open('out.json', 'w+', encoding='utf8') as f:
 		f.write(json.dumps(questions))
