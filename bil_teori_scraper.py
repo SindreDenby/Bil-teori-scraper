@@ -104,7 +104,19 @@ def start_eksamen(driver: webdriver.Chrome):
 
 	startEksamenBtn = driver.find_element(By.XPATH, '//*[@id="ays_finish_quiz_4"]/div[1]/div/div/div/input')
 	startEksamenBtn.click()
-	
+
+def add_new_quest_list(new_quest_dif: int):
+	with open('new_question_count.json', 'r') as f:
+		quest_list: list[int] = json.load(f)
+
+	quest_list.append(new_quest_dif)
+
+	with open('new_question_count.json', 'w+') as f:
+		f.write(json.dumps(quest_list, indent=4))
+
+	print(f"Saved {new_quest_dif} new questions")
+		
+
 
 def main():
 	chrome_options = Options()
@@ -141,8 +153,8 @@ def main():
 
 	new_quest_dif = new_qeustions_count - old_questions_count
 
-	print(f"Questions saved with {new_quest_dif} new question{'s' if new_quest_dif > 1 else ''}")
-
+	add_new_quest_list(new_quest_dif)
+	
 	driver.quit()
 
 	main()
