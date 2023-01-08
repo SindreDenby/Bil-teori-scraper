@@ -6,7 +6,7 @@ def main():
     with open('stripped.json', 'r') as f:
         questions = json.load(f)
 
-    for i, question in enumerate(questions):
+    for i in range(len(questions)):
         questions[i]['id'] = random.getrandbits(128)
     
     with open('hashed.json', 'w+') as f:
