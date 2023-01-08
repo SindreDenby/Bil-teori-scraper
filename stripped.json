@@ -1,6 +1,6 @@
 [
     {
-        "title": "Du skal\u00a0rett fram i en liten rundkj\u00f8ring hvor man enten kan ta av til h\u00f8yre eller rett fram. Det er ikke angitt feltbruk med skilt eller merking. Hvilket felt b\u00f8r du bruke?\n",
+        "title": "Du skal\u00a0rett fram i en liten rundkj\u00f8ring hvor man enten kan ta av til h\u00f8yre eller rett fram. Det er ikke angitt feltbruk med skilt eller merking. Hvilket felt b\u00f8r du bruke?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/406_0.jpg",
         "answers": [
             "H\u00f8yre",
@@ -22,7 +22,7 @@
         "correct_answer": 2
     },
     {
-        "title": "Hva betyr skiltet?\n",
+        "title": "Hva betyr skiltet?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/139_0.jpg",
         "answers": [
             "Tog",
@@ -33,7 +33,7 @@
         "correct_answer": 2
     },
     {
-        "title": "Hva betyr skiltet?\n",
+        "title": "Hva betyr skiltet?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/118_0.jpg",
         "answers": [
             "Ferge",
@@ -44,7 +44,7 @@
         "correct_answer": 4
     },
     {
-        "title": "Hva betyr skiltet?\n",
+        "title": "Hva betyr skiltet?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/142_0.jpg",
         "answers": [
             "Fotgjengerovergang",
@@ -55,7 +55,7 @@
         "correct_answer": 2
     },
     {
-        "title": "Hva betyr skiltet?\n",
+        "title": "Hva betyr skiltet?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/122_0.jpg",
         "answers": [
             "Tunnel",
@@ -66,7 +66,7 @@
         "correct_answer": 1
     },
     {
-        "title": "Hva betyr skiltet?\n",
+        "title": "Hva betyr skiltet?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/01/110_0.jpg",
         "answers": [
             "Pukkverk",
@@ -77,7 +77,7 @@
         "correct_answer": 3
     },
     {
-        "title": "Hva betyr skiltet?\n",
+        "title": "Hva betyr skiltet?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/02/109_0.jpg",
         "answers": [
             "Fartshump",
@@ -814,7 +814,7 @@
         "correct_answer": 1
     },
     {
-        "title": "Er det p\u00e5budt \u00e5 ha en refleksvest i bilen?\n",
+        "title": "Er det p\u00e5budt \u00e5 ha en refleksvest i bilen?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/09/reflelsvest.jpg",
         "answers": [
             "Ja",
@@ -3894,7 +3894,7 @@
         "correct_answer": 2
     },
     {
-        "title": "Hvilket krav m\u00e5 oppfylles av ledsageren under \u00f8velseskj\u00f8ring?\n",
+        "title": "Hvilket krav m\u00e5 oppfylles av ledsageren under \u00f8velseskj\u00f8ring?",
         "image_url": "https://www.bil-teori.no/wp-content/uploads/2022/09/ledsager-under-ovelseskjoring.jpg",
         "answers": [
             "M\u00e5 v\u00e6re fylt 27 \u00e5r",
